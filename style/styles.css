@@ -11,6 +11,26 @@ h3 {
     font-size: 14px;
 }
 
+.delete {
+    background-color: #5B99D4;
+    border: 1px solid #5B99D4;
+    color: white;
+    font-size: 12px;
+    width: 120px;
+    padding: 8px 1;
+    margin: 6px 30px;
+} 
+
+span {
+    color: red;
+}
+
+#name, #title, #extension {
+    border: 1px solid #5B99D4;
+    height: 20px;
+    width: 180px;
+}
+
 #addEmployeeTable td {
     font-size: 14px;
     padding : 5px;
@@ -18,12 +38,6 @@ h3 {
 
 #addEmployeeTable td:last-of-type {
     float: right;
-}
-
-#name, #title, #extension {
-    border: 1px solid #5B99D4;
-    height: 20px;
-    width: 180px;
 }
 
 #addEmployeeButton {
@@ -57,16 +71,4 @@ h3 {
     background-color: #D4DCF4;
 }
 
-.delete {
-    background-color: #5B99D4;
-    border: 1px solid #5B99D4;
-    color: white;
-    font-size: 12px;
-    width: 120px;
-    padding: 8px 1;
-    margin: 6px 30px;
-} 
 
-span {
-    color: red;
-}
