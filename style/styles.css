@@ -1,0 +1,74 @@
+body {
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+.delete {
+    background-color: #5B99D4;
+    border: 1px solid #5B99D4;
+    color: white;
+    font-size: 12px;
+    width: 120px;
+    padding: 8px 1;
+    margin: 6px 30px;
+} 
+
+span {
+    color: red;
+}
+
+#name, #title, #extension {
+    border: 1px solid #5B99D4;
+    height: 20px;
+    width: 180px;
+}
+
+#addEmployeeTable td {
+    font-size: 14px;
+    padding : 5px;
+}
+
+#addEmployeeTable td:last-of-type {
+    float: right;
+}
+
+#addEmployeeButton {
+    background-color : #5B99D4;
+    border: 1px solid #5B99D4;
+    color: white;
+    font-size: 12px;
+    width: 90px;
+    padding: 8px 25px;
+}
+
+#employeeTable {
+    width: 656px;    
+}
+
+#employeeTable tr{
+    height: 30px;
+}
+
+#employeeTable th {
+    width: 168px;
+    background-color : #5B99D4;
+    color: white;
+}
+
+#employeeTable tr:nth-of-type(even) {
+    background-color: #EDEDF7;
+}
+
+#employeeTable tr:nth-of-type(odd) {
+    background-color: #D4DCF4;
+}
+
+
